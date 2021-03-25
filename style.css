@@ -1,0 +1,102 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+  font-style: italic;
+  color: #373fff;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button3 {
+    background: pink;
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button5 {
+    background: mediumpurple;
+}
+
+#button6 {
+    background: coral;
+}
+
+#button1:active, #button1.lit{
+  background-image: url(
+'https://cdn.glitch.com/bdc9846b-c816-4a9e-8f95-db839121f2c5%2FScreen%20Shot%202021-03-23%20at%207.54.08%20PM.png?v=1616642757578');
+  background-size: cover;
+  
+}
+
+#button2:active, #button2.lit{
+     background-image: url(
+'https://cdn.glitch.com/bdc9846b-c816-4a9e-8f95-db839121f2c5%2FScreen%20Shot%202021-03-23%20at%207.57.30%20PM.png?v=1616642778466');
+  background-size: cover;
+}
+
+#button3:active, #button3.lit{
+    background-image: url(
+'https://cdn.glitch.com/bdc9846b-c816-4a9e-8f95-db839121f2c5%2FScreen%20Shot%202021-03-24%20at%208.38.00%20PM.png?v=1616643521981');
+  background-size: cover;
+}
+
+#button4:active, #button4.lit {
+   background-image: url(
+'https://cdn.glitch.com/bdc9846b-c816-4a9e-8f95-db839121f2c5%2FScreen%20Shot%202021-03-23%20at%208.00.48%20PM.png?v=1616642794862');
+  background-size: cover;
+    
+}
+
+
+#button5:active, #button5.lit {
+     background-image: url(
+'https://cdn.glitch.com/bdc9846b-c816-4a9e-8f95-db839121f2c5%2FScreen%20Shot%202021-03-23%20at%208.04.21%20PM.png?v=1616642857279');
+  background-size: cover;
+    
+}
+
+#button6:active, #button6.lit {
+    background-image: url(
+'https://cdn.glitch.com/bdc9846b-c816-4a9e-8f95-db839121f2c5%2FScreen%20Shot%202021-03-23%20at%208.06.28%20PM.png?v=1616642870453');
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
